@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "lint": "eslint .",
+    "swagger": "node swagger.js"
+  },
+  "name": "cse341-pp",
+  "version": "1.0.0",
+  "description": "Personal Project for CSE341 class",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjaskolka/CSE341-PP.git"
+  },
+  "author": "Terri Jaskolka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjaskolka/CSE341-PP/issues"
+  },
+  "homepage": "https://github.com/tjaskolka/CSE341-PP#readme"
+}
