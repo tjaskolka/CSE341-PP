@@ -5,10 +5,10 @@
     "description": "API for UPS Store Inventory",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-pp.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
@@ -75,7 +75,7 @@
         }
       }
     },
-    "/inventory/{inv_id}": {
+    "/inventory/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -83,7 +83,7 @@
         ],
         "parameters": [
           {
-            "name": "inv_id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -153,7 +153,7 @@
         }
       }
     },
-    "/{inv_id}": {
+    "/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -161,7 +161,7 @@
         ],
         "parameters": [
           {
-            "name": "inv_id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
