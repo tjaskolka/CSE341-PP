@@ -9,4 +9,8 @@ router.get('/:id', inventoryController.getSingle);
 
 router.post('/', inventoryController.createItem);
 
+router.put('/:id', inventoryController.updateItem);
+
+router.delete('/:id', inventoryController.deleteItem);
+
 module.exports = router;
