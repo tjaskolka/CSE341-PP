@@ -34,3 +34,9 @@ Content-Type: application/json
 
 DELETE https://cse341-pp.herokuapp.com/inventory/62896d9b447ce5f09971c0ec HTTP/1.1
 Content-Type: application/json
+
+###
+
+GET https://cse341-pp.herokuapp.com/user
+
+###
