@@ -1,0 +1,65 @@
+[{
+    "inv_id": 1,
+    "name": "BROWN Cap",
+    "description": "Laundered 100% cotton twill. Slide buckle adjustable fabric strap, end tucks away. Low profile, unstructured. Import. Embroidery. Brown.",
+    "qty": 8,
+    "size": "one size fits all",
+    "color": "brown",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 2,
+    "name": "24oz Contour Water Bottle",
+    "description": "Contoured, BPA-free polyethylene plastic with textured grip. Polypropylene lid with flip drink spout; wide mouth opening. Imprint.",
+    "qty": 20,
+    "size": "24 oz",
+    "color": "blue",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 3,
+    "name": "America Flag Tee - S",
+    "description": "4.2 oz, 99% airlume combed and ringspun cotton/1% polyester with gray flecks of heather pulled through base color. Shoulder-to-shoulder taping. Side seams. Tearaway label. Retail fit. Unisex sizing. Imprint.",
+    "qty": 2,
+    "size": "Small",
+    "color": "navy heather",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 4,
+    "name": "American Flag Tee - M",
+    "description": "4.2 oz, 99% airlume combed and ringspun cotton/1% polyester with gray flecks of heather pulled through base color. Shoulder-to-shoulder taping. Side seams. Tearaway label. Retail fit. Unisex sizing. Imprint.",
+    "qty": 3,
+    "size": "Medium",
+    "color": "navy heather",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 5,
+    "name": "American Flag Tee - L",
+    "description": "4.2 oz, 99% airlume combed and ringspun cotton/1% polyester with gray flecks of heather pulled through base color. Shoulder-to-shoulder taping. Side seams. Tearaway label. Retail fit. Unisex sizing. Imprint.",
+    "qty": 4,
+    "size": "Large",
+    "color": "navy heather",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 6,
+    "name": "American Flag Tee - XL",
+    "description": "4.2 oz, 99% airlume combed and ringspun cotton/1% polyester with gray flecks of heather pulled through base color. Shoulder-to-shoulder taping. Side seams. Tearaway label. Retail fit. Unisex sizing. Imprint.",
+    "qty": 5,
+    "size": "Extra Large",
+    "color": "navy heather",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 7,
+    "name": "American Flag Tee - 2X",
+    "description": "4.2 oz, 99% airlume combed and ringspun cotton/1% polyester with gray flecks of heather pulled through base color. Shoulder-to-shoulder taping. Side seams. Tearaway label. Retail fit. Unisex sizing. Imprint.",
+    "qty": 3,
+    "size": "2X Large",
+    "color": "navy heather",
+    "price": "1 Donna Dollar"
+  },{
+    "inv_id": 8,
+    "name": "Clear Backpack",
+    "description": "Vinyl backpack with zip top. Front zip pocket and two side mesh pockets. Wide shoulder straps. Imprint.",
+    "qty": 1,
+    "size": "one size fits all",
+    "color": "clear/black",
+    "price": "2 Donna Dollars"
+  }]

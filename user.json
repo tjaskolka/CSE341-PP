@@ -1,0 +1,12 @@
+[{
+    "emp_id": 1234567,
+    "firstName": "Terri",
+    "lastName": "Jaskolka",
+    "password": "password",
+    "orders": {
+      "orderNo": 1,
+      "itemName": "Clear Backpack",
+      "qty": 1,
+      "date": "21 May 2022"
+     }
+}] 
