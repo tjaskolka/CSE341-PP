@@ -9,10 +9,10 @@
     ],
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-pp.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
