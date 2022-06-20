@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const app = express();
-const axios = require('axios').default;
 
 const { auth, requiresAuth } = require('express-openid-connect');
 

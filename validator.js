@@ -14,12 +14,7 @@ exports.validateItem = [
     .withMessage('Name must have at least 3 characters.')
     .bail(),
 
-  check('description')
-    .trim()
-    .isEmpty()
-    .withMessage('Please provide a description of item')
-    .isLength({ min: 5 })
-    .withMessage('Description must have at least 5 characters.'),
+  check('description').trim().isEmpty().withMessage('Please provide a description of item'),
 
   check('qty')
     .trim()

@@ -3,6 +3,10 @@
   "info": {
     "title": "UPS Store Inventory API",
     "description": "API for UPS Store Inventory",
+    "host": "cse341-pp.herokuapp.com",
+    "schemes": [
+      "https"
+    ],
     "version": "1.0.0"
   },
   "host": "localhost:3000",
@@ -66,9 +70,6 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
-          },
           "201": {
             "description": "Created"
           },
@@ -136,9 +137,6 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
-          },
           "204": {
             "description": "No Content"
           },
@@ -197,9 +195,6 @@
                 },
                 "lastName": {
                   "example": "any"
-                },
-                "password": {
-                  "example": "any"
                 }
               }
             }
@@ -216,6 +211,25 @@
       }
     },
     "/user/{id}": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "put": {
         "description": "",
         "parameters": [
@@ -238,9 +252,6 @@
                   "example": "any"
                 },
                 "lastName": {
-                  "example": "any"
-                },
-                "password": {
                   "example": "any"
                 }
               }
