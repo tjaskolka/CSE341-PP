@@ -17,7 +17,7 @@ Content-Type: application/json
 
 ###
 
-PUT https://cse341-pp.herokuapp.com/inventory/62896d9b447ce5f09971c0ec HTTP/1.1
+PUT https://cse341-pp.herokuapp.com/inventory/6291f7e612975740c6a93c94 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -27,12 +27,12 @@ Content-Type: application/json
   "qty": 8,
   "size": "one size",
   "color": "white",
-  "price": "2 Donna Dollar" 
+  "price": "1 Donna Dollar" 
 }
 
 ###
 
-DELETE https://cse341-pp.herokuapp.com/inventory/62896d9b447ce5f09971c0ec HTTP/1.1
+DELETE https://cse341-pp.herokuapp.com/inventory/6291f7e612975740c6a93c94 HTTP/1.1
 Content-Type: application/json
 
 ###
@@ -40,3 +40,49 @@ Content-Type: application/json
 GET https://cse341-pp.herokuapp.com/user
 
 ###
+
+GET http://localhost:3000/inventory
+
+###
+
+POST http://localhost:3000/inventory HTTP/1.1
+Content-Type: application/json
+
+{
+  "inv_id": 10,
+  "name": "3-in-1 Retractable Charger",
+  "description": "Cable with long-lasting, lighted, braided fabric sheathing in plastic retractor. Micro USB, USB Type C, and six-pin connectors. USB end. Light-up charge indicator. Six-pin connector charges in one direction on current Apple mobile devices. Not MFi-certified. Includes protective covers. Dimensions: 5-1/2 inches wide x 1-5/8 inches high x 11/16 inches deep; 36 inches long. Import. Imprinted 2 color logo.",
+  "qty": 8,
+  "size": "one size",
+  "color": "white",
+  "price": "2 Donna Dollars"
+}
+
+###
+
+PUT http://localhost:3000/inventory/629206e7f4dcb1d4569a1380 HTTP/1.1
+Content-Type: application/json
+
+{
+   "inv_id": 10,
+  "name": "3-in-1 Retractable Charger",
+  "description": "Cable with long-lasting, lighted, braided fabric sheathing in plastic retractor. Micro USB, USB Type C, and six-pin connectors. USB end. Light-up charge indicator. Six-pin connector charges in one direction on current Apple mobile devices. Not MFi-certified. Includes protective covers. Dimensions: 5-1/2 inches wide x 1-5/8 inches high x 11/16 inches deep; 36 inches long. Import. Imprinted 2 color logo.",
+  "qty": 8,
+  "size": "one size",
+  "color": "white",
+  "price": "1 Donna Dollar" 
+}
+
+###
+
+DELETE http://localhost:3000/inventory/629206e7f4dcb1d4569a1380 HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/inventory
+
+### 404 route not found
+
+GET http://localhost:3000/inventory/6294b89be365eb9f76413a8b HTTP/1.1
+Content-Type: application/json

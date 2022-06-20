@@ -1,7 +1,11 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+const { check, validationResult } = require('express-validator');
+
 const router = express.Router();
 
 const inventoryController = require('../controllers/inventory');
+const { validateItem } = require('../validator');
 
 router.get('/', inventoryController.getAll);
 

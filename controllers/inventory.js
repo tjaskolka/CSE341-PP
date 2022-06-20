@@ -31,6 +31,7 @@ const createItem = async (req, res) => {
     price: req.body.price
   };
   const response = await mongodb.getDb().db().collection('UPS_store').insertOne(item);
+  console.log(response);
   if (response.acknowledged) {
     console.log(response.acknowledged);
     res.status(201).json(response);
